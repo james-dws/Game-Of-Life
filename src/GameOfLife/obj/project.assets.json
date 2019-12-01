@@ -186,11 +186,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projects\\gameoflife\\GameOfLife\\GameOfLife.csproj",
+      "projectUniqueName": "C:\\projects\\gameoflife\\src\\GameOfLife\\GameOfLife.csproj",
       "projectName": "GameOfLife",
-      "projectPath": "C:\\projects\\gameoflife\\GameOfLife\\GameOfLife.csproj",
+      "projectPath": "C:\\projects\\gameoflife\\src\\GameOfLife\\GameOfLife.csproj",
       "packagesPath": "C:\\Users\\homer\\.nuget\\packages\\",
-      "outputPath": "C:\\projects\\gameoflife\\GameOfLife\\obj\\",
+      "outputPath": "C:\\projects\\gameoflife\\src\\GameOfLife\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

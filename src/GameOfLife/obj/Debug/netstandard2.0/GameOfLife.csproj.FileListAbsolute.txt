@@ -1,0 +1,8 @@
+C:\projects\gameoflife\src\GameOfLife\bin\Debug\netstandard2.0\GameOfLife.deps.json
+C:\projects\gameoflife\src\GameOfLife\bin\Debug\netstandard2.0\GameOfLife.dll
+C:\projects\gameoflife\src\GameOfLife\bin\Debug\netstandard2.0\GameOfLife.pdb
+C:\projects\gameoflife\src\GameOfLife\obj\Debug\netstandard2.0\GameOfLife.AssemblyInfoInputs.cache
+C:\projects\gameoflife\src\GameOfLife\obj\Debug\netstandard2.0\GameOfLife.AssemblyInfo.cs
+C:\projects\gameoflife\src\GameOfLife\obj\Debug\netstandard2.0\GameOfLife.dll
+C:\projects\gameoflife\src\GameOfLife\obj\Debug\netstandard2.0\GameOfLife.pdb
+C:\projects\gameoflife\src\GameOfLife\obj\Debug\netstandard2.0\GameOfLife.csprojAssemblyReference.cache
