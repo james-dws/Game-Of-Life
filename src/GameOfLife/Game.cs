@@ -1,13 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 
 namespace GameOfLife
 {
-    public class Game
+    public class Game : INotifyPropertyChanged
     {
+        private int generation;
+        private List<Cell> currentState;
+
         public Game(int rows, int columns, List<Point> initialLiveCellPositions)
         {
             Rows = rows;
@@ -37,8 +41,24 @@ namespace GameOfLife
         }
 
         public int Columns { get; }
-        public List<Cell> CurrentState { get; private set; }
-        public int Generation { get; private set; }
+        public List<Cell> CurrentState 
+        {
+            get { return currentState; }
+            private set 
+            {
+               currentState= value;
+               RaisePropertyChanged("CurrentState");
+            } 
+        }
+        public int Generation 
+        {
+            get { return generation; }
+            private set 
+            { 
+                generation = value;
+                RaisePropertyChanged("Generation");
+            }
+        }
 
         public void MoveToNextGeneration()
         {
@@ -47,8 +67,7 @@ namespace GameOfLife
             {
                 int liveNeighbours = GetLiveNeighoursCount(cell);
                 bool isAlive = cell.IsAlive?((liveNeighbours==2||liveNeighbours==3)||!(liveNeighbours>3)) : liveNeighbours==3;
-                nextState.Add(new Cell(cell.CellLocation, isAlive));
-                
+                nextState.Add(new Cell(cell.CellLocation, isAlive));                
             }
             CurrentState = nextState;
             Generation++;
@@ -65,6 +84,13 @@ namespace GameOfLife
                 && c.IsAlive);
 
             return neighbours.Count();
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        private void RaisePropertyChanged(string property)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(property));
         }
     }
 }

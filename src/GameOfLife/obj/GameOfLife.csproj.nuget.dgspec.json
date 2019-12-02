@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\gameoflife\\src\\GameOfLife\\GameOfLife.csproj": {}
+    "C:\\lessons\\Game-Of-Life\\src\\GameOfLife\\GameOfLife.csproj": {}
   },
   "projects": {
-    "C:\\projects\\gameoflife\\src\\GameOfLife\\GameOfLife.csproj": {
+    "C:\\lessons\\Game-Of-Life\\src\\GameOfLife\\GameOfLife.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\gameoflife\\src\\GameOfLife\\GameOfLife.csproj",
+        "projectUniqueName": "C:\\lessons\\Game-Of-Life\\src\\GameOfLife\\GameOfLife.csproj",
         "projectName": "GameOfLife",
-        "projectPath": "C:\\projects\\gameoflife\\src\\GameOfLife\\GameOfLife.csproj",
-        "packagesPath": "C:\\Users\\homer\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\gameoflife\\src\\GameOfLife\\obj\\",
+        "projectPath": "C:\\lessons\\Game-Of-Life\\src\\GameOfLife\\GameOfLife.csproj",
+        "packagesPath": "C:\\Users\\mukurumbiraj\\.nuget\\packages\\",
+        "outputPath": "C:\\lessons\\Game-Of-Life\\src\\GameOfLife\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\homer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mukurumbiraj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
